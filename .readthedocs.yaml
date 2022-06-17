@@ -5,10 +5,9 @@ build:
   tools:
     python:
       version: 3.8
-    # Install our python package before building the Docs
       install:
         - method: pip
-        - path: .
+          path: .
 
 sphinx:
   fail_on_warning: true
